@@ -1,4 +1,5 @@
 aws-requests-auth==0.4.2
 boto3==1.9.18
 click==7.0
-requests==2.19.1
+requests==2.20
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
